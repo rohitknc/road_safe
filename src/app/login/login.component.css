@@ -1,0 +1,61 @@
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/assets/f1.jpg");
+  background-size: cover;
+  
+}
+
+.main
+{
+    position: fixed;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    width: 100%;
+   background-color:rgb(130, 135, 141);
+   
+   opacity: 0.8;
+    
+
+}
+.left
+{
+    position: relative;
+    padding:10px 10px;
+    text-transform: uppercase;
+    color: rgb(239, 13, 13);
+}
+.right
+{
+    position: relative;
+    right:20px;
+    padding: 10px 10px;
+   
+}
+.right ul{
+    position: relative;
+    display: flex; 
+    justify-content: space-between;
+    gap: 30px;
+}
+.right ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.right ul li a{
+    text-decoration: none;
+    font-size:13px;
+    text-transform: uppercase;
+}
+.right ul li a:hover{
+color:rgb(212, 6, 106)
+}
+.main1
+{
+    position: relative;
+    top:40px;
+}

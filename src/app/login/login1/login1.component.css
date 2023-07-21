@@ -1,0 +1,75 @@
+.login
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 280px;
+    left:30%;
+    top:40px;
+    background-color: aliceblue;
+    opacity: 0.9;
+}
+.head
+{
+    position: relative;
+    padding:10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: cornflowerblue;
+}
+.main2
+{
+position: relative;
+padding:10px;
+left:10px;
+top:20px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+input
+{
+    position: relative;
+    padding: 2px;
+    width: 240px;
+    border: 1px solid #79a5e7;
+}
+button{
+    position: relative;
+    text-transform: uppercase;
+    top:30px;
+   left:30%;
+   width: 100px;
+   padding: 3px;
+   border:1px solid rgb(79, 248, 57);
+   background-color:rgb(79, 248, 57) ;
+   border-radius: 7px;
+}
+input:focus
+{
+    outline: none;
+    box-shadow: 0 0 0 .1rem #7db2de;
+}
+label{
+    position: relative;
+    bottom: 2px;
+    text-transform: capitalize;
+}
+button:hover{
+    box-shadow: 0 0 0 .1rem #6bacc4;
+}
+.acc
+{
+    position: relative;
+    top:50px;
+    right:2px;
+    text-align: end;
+}
+a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: small;
+}

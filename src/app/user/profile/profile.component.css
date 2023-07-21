@@ -1,0 +1,100 @@
+/* body
+{
+    background-color: rgb(105, 124, 126);
+    height: 100vh;
+} */
+h3
+{
+    position: relative;
+    text-align: center;
+    top:40px;
+    text-decoration:underline;
+    color: #f540da;
+    font-size:x-large;
+}
+.profile
+{
+   backdrop-filter: blur(5px);
+    position: relative;
+    display: flex;
+    left:35%;
+    overflow: hidden;
+    top:60px;
+    border-radius: 6px;
+    /* border: 1px solid #464343; */
+    flex-direction: column;
+    width: 250px;
+    height: 240px;
+    font-size: 14px;
+    
+   
+}
+.im
+{
+    width: 100%;
+    background-color: rgb(143, 146, 146);
+}
+.f
+{
+   width: 100%;
+   padding: 3px;
+   height: 280px;
+   background-color: blanchedalmond;
+  
+}
+.img{
+    position: relative;
+    left: 35%;
+    top:2px;
+    background-color: rgb(242, 247, 252);
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.content
+{
+    /* background-color: aliceblue; */
+    padding: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+p{
+    top:26px;
+    color: rgb(14, 51, 236);
+    padding: 5px;
+    left:10px;
+    margin-bottom: 3px;
+    position: relative;
+    font-size: 13px;
+}
+.p
+{
+text-transform: capitalize;
+}
+.edit
+{
+   position:relative;
+   top:75px;
+  
+   text-align: center;
+
+}
+button{
+    position: relative;
+    padding: 5px;
+    border-radius: 13px;
+    border:none;
+    width: 100px;
+    color: rgb(232, 51, 142);
+    background-color: rgb(249, 174, 11);
+
+}
+button:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 0 2px sandybrown;
+
+}

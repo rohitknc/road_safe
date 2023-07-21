@@ -1,0 +1,66 @@
+body
+{
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/assets/trafic.jpg");
+}
+.acc
+{
+    position: relative;
+    display: flex;
+    left:34%;
+    top:80px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    opacity: 0.9;
+    background-color: rgb(130, 126, 127);
+}
+input:focus
+{
+    box-shadow: 0 0 0 1.3px rgb(195, 174, 174);
+}
+.h
+{
+ text-transform: capitalize;
+ color: rgb(88, 230, 45);
+}
+input
+{
+    width: 90%;
+    padding: 6px;
+    border: .5px solid #e2b2b2;
+    outline: none;
+
+}
+input::placeholder
+{
+    font-size: 10px;
+}
+.btn
+{
+    position: relative;
+    top:90px;
+    text-align: center;
+    left:-6.5px;
+ 
+   
+}
+button
+{
+  
+    width: 100px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    background-color: coral;
+    padding: 5px;
+}
+button:hover
+{
+    box-shadow: 0 0 0 1px rgb(184, 181, 181);
+    transform:scale(1.1);
+}
