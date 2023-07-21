@@ -17,6 +17,7 @@ export class SignupComponent {
     if(this.rp!=this.user.password)
     {
       console.log("password does not match each ");
+      console.log("ravoi chandamaama");
     }
     console.log(this.user);
   }
